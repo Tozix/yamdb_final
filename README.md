@@ -1,5 +1,5 @@
 # API сервис проекта YaMDB
-[![API for YaMDB project workflow](https://github.com/tozix/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)](https://github.com/tozix/yamdb_final/actions/workflows/yamdb_workflow.yml)
+[![API for YaMDB project workflow](https://github.com/Tozix/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=main)](https://github.com/Tozix/yamdb_final/actions/workflows/yamdb_workflow.yml)
 Проект разработан командой мечты из трех разработчиков, в рамках обучения на курсе Backend-разработчик Яндекс Практикума.
 ___
 ### Описание
