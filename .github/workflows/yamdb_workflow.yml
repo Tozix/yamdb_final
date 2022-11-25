@@ -64,6 +64,8 @@ jobs:
             key: ${{ secrets.SSH_KEY }}
             passphrase: ${{ secrets.SSH_PASSPHRASE }}
             script: |
+              sudo docker compose stop
+              sudo docker compose rm web
               sudo docker compose pull
               echo > .env
               echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
