@@ -75,7 +75,6 @@ jobs:
               sudo docker compose exec -T web python manage.py makemigrations
               sudo docker compose exec -T web python manage.py migrate
               sudo docker compose exec -T web python manage.py createadminuser --no-input \ 
-              --email ${{ secrets.DJANGO_SUPERUSER_EMAIL }} \
               --password ${{ secrets.DJANGO_SUPERUSER_PASSWORD }} \
               --username ${{ secrets.DJANGO_SUPERUSER_USERNAME }} --preserve
               sudo docker compose exec -T web python manage.py collectstatic --no-input
