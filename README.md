@@ -16,7 +16,7 @@ ___
 - [Docker]
 - [Gunicorn]
 - [PostgreSQL]
-- [подробнее см. прилагаемый файл зависимостей requrements.txt]
+- подробнее см. прилагаемый файл зависимостей requrements.txt
 ___
 
 ## Шаблон наполнения .env
@@ -228,6 +228,9 @@ ___
    [Django REST Framework 3.12.4]: <https://www.django-rest-framework.org/community/release-notes/>
    [DRF multiple serializer 0.2.3]: <https://pypi.org/project/drf-multiple-serializer/>
    [Django-filters]: <https://django-filter.readthedocs.io/en/stable/guide/install.html>
+   [Docker]: <https://www.docker.com/>
+   [Gunicorn]: <https://gunicorn.org/>
+   [PostgreSQL]:<https://www.postgresql.org/> 
    [Никита Емельянов]: <https://github.com/Tozix>
    [Полина Костина]: <https://github.com/Polina1Kostina>
    [Дмитрий Ротанин]: <https://github.com/Annsjaw>
