@@ -74,11 +74,6 @@ jobs:
               echo POSTGRES_PASSWORD=${{ secrets.POSTGRES_PASSWORD }} >> .env
               echo DB_HOST=${{ secrets.DB_HOST }} >> .env
               sudo docker compose up -d --force-recreate
-              sudo docker compose exec -T web python manage.py makemigrations
-              sudo docker compose exec -T web python manage.py migrate
-              sudo docker compose exec -T web python manage.py createadminuser --no-input \ 
-              --password ${{ secrets.DJANGO_SUPERUSER_PASSWORD }} \
-              --username ${{ secrets.DJANGO_SUPERUSER_USERNAME }} --preserve
               sudo docker compose exec -T web python manage.py collectstatic --no-input
   send_message:
     runs-on: ubuntu-latest
