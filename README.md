@@ -206,6 +206,8 @@ GET http://127.0.0.1:8000/api/v1/titles/
         ]
     }
 ]
+```
+
 ## Ссылки
 Проект доступен по следующей ссылке <http://yamdb.boostnet.ru/api/v1/>  
 Подробная документация по API размещена по адресу <http://yamdb.boostnet.ru/redoc/>
