@@ -1,5 +1,5 @@
 FROM python:3.7-slim
-LABEL author='Tozix' version=0.1.0
+LABEL author='Tozix' version=0.1.1
 WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt --no-cache-dir
